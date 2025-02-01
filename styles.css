@@ -1,0 +1,622 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 4.5vw;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+}
+
+.container a {
+  float: left;
+  color: wheat;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.container a:hover {
+  background-color: rgb(79, 37, 37);
+  color: wheat;
+}
+
+.items {
+  color: wheat;
+  font-size: large;
+}
+
+.main {
+  height: 20vw;
+  width: 100%;
+  display: flex;
+  margin-left: -5%;
+}
+
+.container {
+  height: 4.5vw;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.items {
+  color: wheat;
+  font-size: large;
+}
+
+.top-text1:hover {
+  scale: 1.2;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.bg {
+  background-image: url("varad-parulekar-Gls5DB9lk6s-unsplash.jpg");
+  height: 40vw;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  margin-right: -5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color:wheat;
+  height: 4vw;
+  text-align: center;
+  padding: 20% 80%;
+  box-shadow: 5% #ffffff;
+  transition: 0.3s;
+}
+.start{
+  color: wheat;
+  font-size: 2.9rem;
+  width: 100%;
+  height: 7vw;
+  background-color: rgb(75, 38, 38,0.8);
+  text-align: center;
+}
+
+.button:hover {
+  background-color: rgb(88, 55, 55);
+  color: wheat;
+}
+
+.left-text-2 {
+  justify-self: center;
+  justify-content: center;
+}
+
+.button b {
+  font-size: large;
+}
+
+
+.branding {
+  height: 4.5vw;
+  width: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url("Celina Diary - Personal Use.otf");
+}
+
+.brand {
+  font-family: myfont;
+  font-size: xx-large;
+  color: wheat;
+  text-align: center;
+  align-items: center;
+}
+
+.books {
+  height: 65vw;
+  width: 100%;
+  background-image: url("pexels-technobulka-2908984.jpg");
+  background-size: cover;
+}
+
+.PART {
+  height: 1vw;
+  width: 100%;
+  background-color: black;
+}
+
+.Heading {
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(95, 45, 45);
+  height: 2.5vw;
+  width: 20%;
+  padding: 1% 0%;
+  margin-top: -1%;
+  background-color: rgb(245, 222, 179);
+  border:5px rgb(90, 41, 41), solid;
+  border-radius: 10px 10px;
+  justify-self: center;
+  align-items: center;
+}
+
+.flex1 {
+  display: flex;
+  padding-top: 35px;
+  padding-right: 2%;
+  justify-content: space-evenly;
+  padding-bottom: 45px;
+}
+
+.flex2 {
+  display: flex;
+  padding-top: 20px;
+  padding-right: 2%;
+  justify-content: space-evenly;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  padding-bottom: 270px;
+  padding-left: 190px;
+}
+
+.book1:hover .s1 {
+  opacity: 0.3;
+}
+
+.book1:hover .middle {
+  opacity: 1;
+}
+
+.book2:hover .s1 {
+  opacity: 0.3;
+}
+
+.book2:hover .middle {
+  opacity: 1;
+}
+
+.book3:hover .s1 {
+  opacity: 0.3;
+}
+
+.book3:hover .middle {
+  opacity: 1;
+}
+
+.book4:hover .s1 {
+  opacity: 0.3;
+}
+
+.book4:hover .middle {
+  opacity: 1;
+}
+
+.book5:hover .s1 {
+  opacity: 0.3;
+}
+
+.book5:hover .middle {
+  opacity: 1;
+}
+
+.book6:hover .s1 {
+  opacity: 0.3;
+}
+
+.book6:hover .middle {
+  opacity: 1;
+}
+
+.book7:hover .s1 {
+  opacity: 0.3;
+}
+
+.book7:hover .middle {
+  opacity: 1;
+}
+
+.book8:hover .s1 {
+  opacity: 0.5;
+}
+
+.book8:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: wheat;
+  color: rgb(89, 45, 45);
+  font-size: 16px;
+  padding: 16px 32px;
+  font-weight: bold;
+}
+
+.s1 {
+  opacity: 1;
+  display: block;
+  width: 200px;
+  height: 300px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.PART2 {
+  height: 1vw;
+  width: 100%;
+  background-color: black;
+}
+
+.info {
+  width: 200px;
+  height: 2.2vw;
+  color: rgb(78, 37, 37);
+  background-color: wheat;
+}
+
+.categories {
+  width: 100%;
+  height: 55vw;
+  background-image: url("glasses-1052010.jpg");
+  background-size: cover;
+}
+
+.Heading2 {
+  height: 2.5vw;
+  width: 15%;
+  font-size: xx-large;
+  color: rgb(68, 22, 22);
+  padding: 1% 0%;
+  background-color: rgb(245, 222, 179);
+  text-align: center;
+  justify-self: center;
+  border: solid rgb(68, 22, 22), 5px ;
+  border-radius:10px ;
+}
+
+.g1 {
+  background-image: url("genre-1.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+
+}
+
+.g1:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.g2 {
+  background-image: url("genre-2.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g2:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.g3 {
+  background-image: url("genre-3.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g3:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.g4 {
+  background-image: url("genre-4.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g4:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.g5 {
+  background-image: url("genre-5.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g5:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.g6 {
+  background-image: url("genre-6.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g6:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.g7 {
+  background-image: url("genre-7.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g7:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.g8 {
+  background-image: url("genre-8.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g8:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.flex21 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 45px;
+}
+
+.flex22 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 35px;
+}
+
+.g9 {
+  background-image: url("genre-9.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g9:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.g10 {
+  background-image: url("genre-10.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g10:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.g11 {
+  background-image: url("genre-11.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g11:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.g12 {
+  background-image: url("genre-12.webp");
+  height: 160px;
+  width: 280px;
+  background-size: cover;
+  align-content: center;
+  transition-duration: 500ms;
+}
+
+.g12:hover {
+  scale: 1.3;
+  box-shadow: #ffffff 0px 0px 10px 0px;
+}
+
+.flex23 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 35px;
+}
+
+.g1t {
+  text-align: center;
+  font: xx-large;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: bold;
+  padding: 4%;
+  color: white;
+}
+
+.PART3 {
+  background-color: black;
+  height: 1vw;
+  width: 100%;
+  justify-items: center;
+}
+
+.review-form {
+  height: 70vw;
+  width: 100%;
+  padding-top: 2%;
+  justify-items: center;
+  background-image: url('review-5556833.jpg');
+  background-size: cover;
+}
+
+.Heading3 {
+  font-size: xx-large;
+  color: rgb(100, 51, 51);
+  background-color: wheat;
+  text-align: center;
+  height: 2.3vw;
+  width: 35%;
+  margin: 1.5%;
+  padding: 1.5%;
+  border: solid rgb(68, 22, 22), 5px ;
+  border-radius:10px ;
+}
+
+.form {
+padding-top: 3%;
+  text-align: center;
+  width: 25%;
+  border-color: black;
+  border-width: 5px ;
+  border-radius: 10px;
+  border: 5px solid wheat;
+  padding: 20px 10px;
+  margin: 2%;
+  background-color: rgb(76, 28, 28, 0.8);
+  color: wheat;
+  justify-self: center;
+}
+
+.form b{
+ font-size: 1.2rem;
+}
+#fname{
+  width: 100%;
+  border: 3px solid wheat;
+  border-radius: 10px;
+}
+#gname{
+  width: 100%;
+  border: 3px solid wheat;
+  border-radius: 10px;
+}
+#hname{
+  width: 100%;
+  height: 5vw;
+  border: 3px solid wheat;
+  border-radius: 10px;
+}
+
+#hname::placeholder{
+  align-content: start;
+}
+.review1{
+  width:15%;
+  background-color:  rgb(76, 28, 28, 0.8);
+  color:wheat;
+  margin: 2%;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px solid wheat;
+  padding: 1.5%;
+}
+.flexr{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.review2{
+  width:15%;
+  background-color:  rgb(76, 28, 28, 0.8);
+  color:wheat;
+  margin: 2%;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px solid wheat;
+  padding: 1.5%;
+}
+span{
+  font-size: x-large;
+  color: skyblue;
+}
+
+.review3{
+  width:15%;
+  background-color:  rgb(76, 28, 28, 0.8);
+  color:wheat;
+  margin: 2%;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px solid wheat;
+  padding: 1.5%;}
+.Submit{
+  height: 3vw;
+  width: 30%;
+  background-color: wheat;
+  color: rgb(79, 27, 27);
+  border: solid rgb(80, 32, 32) 5px;
+  border-radius: 10px;
+}
+footer{
+  height:5vw;
+  width: 100%;
+  background-color: black;
+  align-content: center;
+  display: flex;
+}
+.copy{
+  height:5vw;
+  width: 70%;
+  color: wheat;
+  text-align: center;
+  justify-content: center;
+}
